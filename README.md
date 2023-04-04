@@ -1,7 +1,8 @@
 # BigData Project For Global Terrorism Database
 
-
-what data set to use ???
+In this project we made a pipeline to process the Global Terrorism Database (GTD) from Kaggle
+link : [https://www.kaggle.com/datasets/START-UMD/gtd]
+The pipeline includes batch and stream processing that's why it's based on the Lambda Architecture.
 
 ## Architecure
 
@@ -9,11 +10,19 @@ what data set to use ???
 
 
 ### 1-Data Ingestion
-
+ - Kafka
+ 
 ### 2-Data Processing 
-#### a-Batch
-#### b-Stream
-
-### 3- ?
+ - Streaming : Spark Streaming
+ - Batch : Hadoop MapReduce
+ 
+ 
+### 3-Data Storage
+ - Streaming : MongoDB
+ - Batch : HDFS
 
 ### 4- Data Visualization
+ - Dashboarding : Kibana
+
+
+
