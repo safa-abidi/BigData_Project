@@ -1,6 +1,7 @@
 # BigData Project For Global Terrorism Database
 
 In this project we made a pipeline to process the Global Terrorism Database (GTD) from Kaggle.
+
 link : [https://www.kaggle.com/datasets/START-UMD/gtd].
 
 The pipeline includes batch and stream processing that's why it's based on the Lambda Architecture.
