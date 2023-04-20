@@ -21,7 +21,7 @@ The pipeline includes batch and stream processing that's why it's based on the L
  
 ### 3-Data Storage
  - Streaming : MongoDB
- - Batch : HDFS
+ - Batch : HDFS & MongoDB
 
 ### 4- Data Visualization
  - Dashboarding : Kibana
