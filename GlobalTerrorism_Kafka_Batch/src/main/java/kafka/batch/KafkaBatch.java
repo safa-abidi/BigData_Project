@@ -22,7 +22,12 @@ public class KafkaBatch {
 
         Configuration conf = new Configuration();
         FileSystem fs = FileSystem.get(conf);
-        FSDataOutputStream outputStream = fs.create(new Path(args[3]));
+        FSDataOutputStream outputStream;
+        if (fs.exists(new Path(args[3]))) {
+            outputStream = fs.append(new Path(args[3]));
+        } else {
+            outputStream = fs.create(new Path(args[3]));
+        }
 
         Properties props = new Properties();
         props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, args[0]);
