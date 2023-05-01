@@ -17,10 +17,13 @@ public class CountryYearTokenizeMapper extends Mapper<LongWritable, Text, Text, 
         String line = value.toString();
         if(!line.startsWith("eventid")){
             String[] fields = value.toString().split(",");
-            String country = fields[8];
-            String year = fields[1];
-            countryYear.set(country + "," + year);
-            context.write(countryYear, one);
+            if(fields.length>=9){
+                String country = fields[8];
+                String year = fields[1];
+                countryYear.set(country + "," + year);
+                context.write(countryYear, one);
+            }
+
         }
     }
 
