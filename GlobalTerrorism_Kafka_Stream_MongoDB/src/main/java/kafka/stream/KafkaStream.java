@@ -99,7 +99,6 @@ public class KafkaStream {
                         MongoDatabase database = mongoClient.getDatabase("GlobalTerrorism");
                         MongoCollection<Document> collection = database.getCollection("stream");
                         Document doc = new Document("pairs", pairs);
-                        System.out.println("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO "+pairs.size());
                         collection.insertOne(doc);
                         mongoClient.close();
                     }
