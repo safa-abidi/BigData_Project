@@ -8,7 +8,7 @@ The pipeline includes batch and stream processing that's why it's based on the L
 
 ## Architecure
 
-![Architecture](images/architecture2.jpg "Architecture")
+![Architecture](images/architecture3.jpg "Architecture")
 
 
 ### 1-Data Ingestion
