@@ -43,3 +43,4 @@ The pipeline includes batch and stream processing that's why it's based on the L
  - GlobalTerrorism_Batch_MongoDB : launch the batch process on the csv database and save the result in MongoDB database
  - GlobalTerrorism_Kafka_MongoDB : receive streaming data, process them and save result in MongoDB database
 
+Visualization : https://charts.mongodb.com/charts-globalterrorism-inmsa/public/dashboards/bcd6aeb2-f6f9-4aee-bbab-38f7e0b60851
