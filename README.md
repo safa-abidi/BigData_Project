@@ -1,9 +1,11 @@
 # BigData Project For Global Terrorism Database
 
 Made by : 
+[Ines Achour](https://github.com/inesachour) /
+[Safa Laabidi](https://github.com/safa-abidi) /
 [Amal Sammari](https://github.com/Amal1999)
-[Safa Laabidi](https://github.com/safa-abidi)
-[Ines Achour](https://github.com/inesachour)
+
+
 
 In this project we made a pipeline to process the Global Terrorism Database (GTD) from Kaggle.
 
